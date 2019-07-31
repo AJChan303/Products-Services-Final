@@ -24,7 +24,7 @@ namespace Products_Services_OOP {
                 var n = itm.Print();
                 Console.WriteLine(n);
                 
-            }
+            } 
             decimal p = 0;
             foreach (Sales pro in items) {
                 
