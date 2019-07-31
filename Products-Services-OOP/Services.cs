@@ -11,7 +11,7 @@ namespace Products_Services_OOP {
 
         }
         public override string Print() {
-            return base.Print() + $" | {this.Rate} | {this.Hours} | {this.GetTotals()}";
+            return base.Print() + $" |Rate: {this.Rate} |Hours: {this.Hours} |Totals: {this.GetTotals()}";
         }
         public Services(string Name, int Rate, int Hours) {
             this.name = Name;

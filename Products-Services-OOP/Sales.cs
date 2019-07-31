@@ -5,10 +5,12 @@ using System.Text;
 namespace Products_Services_OOP {
     public class Sales {
         public string name;
+
         public virtual string Print() {
-            return $"{this.name}";
+            return $"Item: {this.name}";
         }
-        public virtual decimal GetTotals() {
+
+        public virtual decimal GetTotals() {// might be better to throw an NotImplemented Exception
             return 0;
         }
     }
